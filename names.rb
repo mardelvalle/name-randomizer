@@ -1,5 +1,6 @@
 require "json"
 require 'optparse'
+
 @file = File.open "./names.json"
 @data = JSON.load @file
 
